@@ -1,0 +1,25 @@
+img {
+    width: 450px;
+    height: 400px;
+    image-resolution: 200px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+html {
+    background:url(https://sun9-14.userapi.com/impg/GzlAAt6KltAiAbuG3BffslrN3LxlvH7BsUExBQ/GU6iVhkDzzA.jpg?size=800x1067&quality=95&sign=7dcd666fb87ab7bb17d7459a8fdb4d06&type=album) no-repeat center center;
+    min-height:100%;
+    background-size:cover;
+}
+div {
+    text-align: center;
+}
+
+h2 {
+    color: red;
+}
