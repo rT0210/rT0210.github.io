@@ -1,25 +1,123 @@
-img {
-    width: 450px;
-    height: 400px;
-    image-resolution: 200px;
+ul {
+    font-size: 18px;;
+    list-style-type: none;
+    line-height: 30px;
 }
 
+ul li:before {
+    content: '✔';
+}
 
+ul li {
+    display: flex;
+    font-family: arial;
+}
+
+.whiteBox1 {
+    width: 375px;
+    height: 700px;
+    text-align: left;
+    border: 2px white;
+    border-radius: 15px;
+    background-color: rgb(251, 248, 248);
+    margin-top: 23px;
+}
+
+body {
+    background-color: rgb(246, 241, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-right: 10px;
+    margin-inline: 80px;
+    margin:150px, auto;
+}
 h1 {
+    font-size: 20px;
+    margin-left: 40px;
+    font-family: Arial;
+}
+
+p {
+    margin-left: 40px;
+    color: gray;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.payment {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.currency {
+    display:inline-block;
+    white-space: nowrap;
+}
+
+.ruCount {
+    display:inline-block;
+    white-space: nowrap;
+    padding-right: -60px;
+}
+
+.month {
+    white-space: nowrap;
+    display:inline-block;
+}
+
+.span {
+    position:absolute;
     text-align: center;
-    font-size: 30px;
+}
+
+.color {
+    text-align: center;
+}
+
+.whiteBox2 {
+    width: 375px;
+    height: 700px;
+    text-align: left;
+    border: 2px white;
+    border-radius: 15px;
+    margin-top: 23px;
+    background: linear-gradient(to top left, rgb(78, 215, 233), rgb(56, 39, 184));
     color: white;
 }
 
-html {
-    background:url(https://sun9-14.userapi.com/impg/GzlAAt6KltAiAbuG3BffslrN3LxlvH7BsUExBQ/GU6iVhkDzzA.jpg?size=800x1067&quality=95&sign=7dcd666fb87ab7bb17d7459a8fdb4d06&type=album) no-repeat center center;
-    min-height:100%;
-    background-size:cover;
+.whiteBox3 {
+    width: 375px;
+    height: 700px;
+    text-align: left;
+    border: 2px white;
+    border-radius: 15px;
+    background-color: rgb(251, 248, 248);
+    margin-top: 23px;
 }
-div {
-    text-align: center;
+
+li {
+    margin-top: 16px;
 }
 
 h2 {
-    color: red;
+    padding-left: 30px;
+}
+
+h {
+    padding-left: 30px;
+}
+
+h3 {
+    padding-left: 30px;
+}
+button {
+    position: absolute;
+    background-color: rgb(77, 133, 228);
+    border-radius: 25px;
+    min-height: 36px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    min-width: 300px;
 }
